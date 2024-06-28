@@ -1,0 +1,21 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+RewriteRule ^urun/([0-9a-zA-Z-_]+)/([0-9]+)$ urun-detay.php?sef=$1&urun_id=$2 [L,QSA]
+RewriteRule ^kategori/([0-9a-zA-Z-_]+)/([0-9]+) kategori.php?sef=$1&id=$2 [L,QSA]
+RewriteRule ^blog/([0-9a-zA-Z-_]+)/([0-9]+) single.php?sef=$1&blog_id=$2 [L,QSA]
+RewriteRule ^sayfa/([0-9a-zA-Z-_]+) sayfa.php?sef=$1 [L,QSA]
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^leagcy\.hatauzmani\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.leagcy\.hatauzmani\.com$
+RewriteRule ^/?$ "https\:\/\/leagcy\.hatauzmani\.com\/" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# “alt-php72” paketini varsayılan “PHP” programlama dili olarak ayarlayın.
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
