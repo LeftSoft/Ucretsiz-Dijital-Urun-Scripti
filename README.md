@@ -1,4 +1,4 @@
-<h1>Ücretsiz Dijital Ürün Scripti</h1>
+<h1>Ücretsiz Dijital Ürün Satış Scripti</h1>
 Bu yazılım, PHP PDO kullanılarak geliştirilmiş bir dijital ürün satış ve yönetim sistemidir. Sistem, kullanıcıların dijital ürünleri satın almasına ve yöneticilerin bu ürünleri yönetmesine olanak tanır. Yazılım, kullanıcı dostu arayüzü ve güvenli ödeme yöntemi ile dikkat çekmektedir.
 
 <h3>Ana Özellikler:</h3>
