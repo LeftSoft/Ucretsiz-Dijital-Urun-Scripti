@@ -23,4 +23,8 @@ Bu yazılım, PHP PDO kullanılarak geliştirilmiş bir dijital ürün satış v
 <p><strong>URL YOLU:</strong> /admin</p> <p><strong>Örnek:</strong> https://ornek.com/admin/</p>
 <p><strong>Kullanıcı Adı:</strong> deneme@deneme.com</p>
 <p><strong>Şifre:</strong> 123456789</p>
+<h2>Ekran Görüntüleri</h2>
 
+<img src="https://img001.prntscr.com/file/img001/90BZaE2DQ32ZbzOdV72a_A.png">
+<img src="https://img001.prntscr.com/file/img001/B_3yDz2kRimYZwpwW3lxgQ.png">
+<img src="https://img001.prntscr.com/file/img001/Eq6Z_J0MR0mc1u8oUPUQ6w.png">
