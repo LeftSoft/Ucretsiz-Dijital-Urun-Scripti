@@ -15,8 +15,12 @@ Bu yazılım, PHP PDO kullanılarak geliştirilmiş bir dijital ürün satış v
 <ol>
   <li>"<strong>SQL DOSYASI</strong>" klasörü içerisinde bulunan "<strong>hatauaxk_flex.sql</strong>" dosyasını veritabanına yükleyin.</li>
   <li>"<strong>ayar</strong>" tablosunu açın ve "<strong>ayar_url</strong>" için yazılan "<strong>https://leagcy.hatauzmani.com/</strong>" yazısını silerek ana domaininizi yazın. (Domainin sonuna "/" eklemeniz zorunludur. Örnek: https://ornek.com/)</li>
+  <li>"<strong>src>sql.php</strong>" dosyasına ulaşın ve açın.</li>
+  <li>"<strong>dbname=</strong>" sonrasında bulunan "veritabanıadı"nı değiştirin.</li>
+  <li>"<strong>kullanıcıadı</strong>" ve "<strong>şifre</strong>" seçeneğini değiştirin.</li>
 </ol>
 <h3>Admin Panel Bilgisi</h3>
 <p><strong>URL YOLU:</strong> /admin</p> <p><strong>Örnek:</strong> https://ornek.com/admin/</p>
 <p><strong>Kullanıcı Adı:</strong> deneme@deneme.com</p>
 <p><strong>Şifre:</strong> 123456789</p>
+
