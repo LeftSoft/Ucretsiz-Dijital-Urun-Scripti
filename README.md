@@ -18,6 +18,8 @@ Bu yazılım, PHP PDO kullanılarak geliştirilmiş bir dijital ürün satış v
   <li>"<strong>src>sql.php</strong>" dosyasına ulaşın ve açın.</li>
   <li>"<strong>dbname=</strong>" sonrasında bulunan "veritabanıadı"nı değiştirin.</li>
   <li>"<strong>kullanıcıadı</strong>" ve "<strong>şifre</strong>" seçeneğini değiştirin.</li>
+  <li>Sepete ekleme özelliğinin çalışması için "assets>js" klasörüne ulaşın ve "custom.js" dosyasını açın.</li>
+  <li>6 ve 21. satırdaki ana urlnizi değiştirin. Örnek: https://örnek.com/src/cart_db.php</li>
 </ol>
 <h3>Admin Panel Bilgisi</h3>
 <p><strong>URL YOLU:</strong> /admin</p> <p><strong>Örnek:</strong> https://ornek.com/admin/</p>
