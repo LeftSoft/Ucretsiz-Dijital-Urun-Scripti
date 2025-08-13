@@ -74,7 +74,7 @@ CREATE TABLE `ayar` (
 --
 
 INSERT INTO `ayar` (`ayar_id`, `ayar_logo`, `ayar_favicon`, `ayar_url`, `ayar_title`, `ayar_description`, `ayar_keywords`, `ayar_tel`, `ayar_footer`, `ayar_facebook`, `ayar_twitter`, `ayar_instagram`, `ayar_google`, `ayar_canli`, `ayar_api`, `ayar_secret`, `ayar_googlekey`, `ayar_googlesecret`, `ayar_komisyon`) VALUES
-(0, 'assets/images/24885258642683023456legacy.png', 'assets/images/26802221762992731532favicon.png', 'https://leagcy.hatauzmani.com/', 'Legacy', 'açıklama', 'anahtar kelime,vs,vs', '0553 884 96 58', '© Copyrights 2021 LeftSoft All rights reserved.', 'https://facebook.com', 'https://twitter.com', 'https://instagram.com', '', '', 'f100692eadd4680c0565b4a3368945f7', 'f5ddab28b301946c90f8228aa927cfaf', '6LeGzXYcAAAAAOBQv5G8GbbaLHvmd9m0lLKsQj3R', '6LeGzXYcAAAAAERK13rTOFvNE42LD8Z-6aqnslUG', 3);
+(0, 'assets/images/24885258642683023456legacy.png', 'assets/images/26802221762992731532favicon.png', 'https://leagcy.hatauzmani.com/', 'Legacy', 'açıklama', 'anahtar kelime,vs,vs', '0', '© Copyrights 2021 LeftSoft All rights reserved.', 'https://facebook.com', 'https://twitter.com', 'https://instagram.com', '', '', 'f100692eadd4680c0565b4a3368945f7', 'f5ddab28b301946c90f8228aa927cfaf', '6LeGzXYcAAAAAOBQv5G8GbbaLHvmd9m0lLKsQj3R', '6LeGzXYcAAAAAERK13rTOFvNE42LD8Z-6aqnslUG', 3);
 
 -- --------------------------------------------------------
 
